@@ -44,4 +44,16 @@ I build efficient, low-resource software — computer vision, security tooling, 
 
 ---
 
+### 🐍 My contributions, eaten daily
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Yatharth-Jha-Yx/Yatharth-Jha-Yx/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Yatharth-Jha-Yx/Yatharth-Jha-Yx/output/github-snake.svg">
+    <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Yatharth-Jha-Yx/Yatharth-Jha-Yx/output/github-snake.svg">
+  </picture>
+</p>
+
+---
+
 <p align="center"><i>Currently pursuing a Master's in Computer Applications · open to collaborating on games, computer vision and tooling.</i></p>
