@@ -19,7 +19,8 @@ jobs:
 
       - name: Draw the GitHub-style contribution graph with the snake
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # SNAKE_TOKEN (optional, your own token) lets the graph count private contributions too
+          GH_TOKEN: ${{ secrets.SNAKE_TOKEN || secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/contrib_snake.py "${{ github.repository_owner }}" dist
 
       - name: Publish the SVGs to the output branch
