@@ -21,12 +21,12 @@ THEMES = {
     "light": dict(
         bg="#ffffff", border="#d1d9e0", fg="#1f2328", muted="#59636e",
         cells=["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
-        cell_stroke="rgba(31,35,40,0.05)", snake=["#6639ba", "#8250df"],
+        cell_stroke="rgba(31,35,40,0.05)", snake=["#cf222e", "#e5534b"],
     ),
     "dark": dict(
         bg="#0d1117", border="#3d444d", fg="#f0f6fc", muted="#9198a1",
         cells=["#151b23", "#033a16", "#196c2e", "#2ea043", "#56d364"],
-        cell_stroke="rgba(240,246,252,0.05)", snake=["#a371f7", "#bc8cff"],
+        cell_stroke="rgba(240,246,252,0.05)", snake=["#f85149", "#ff7b72"],
     ),
 }
 
