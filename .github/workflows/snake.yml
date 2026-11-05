@@ -21,7 +21,9 @@ jobs:
         env:
           # SNAKE_TOKEN (optional, your own token) lets the graph count private contributions too
           GH_TOKEN: ${{ secrets.SNAKE_TOKEN || secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/contrib_snake.py "${{ github.repository_owner }}" dist
+        run: |
+          python3 .github/scripts/contrib_snake.py "${{ github.repository_owner }}" dist
+          python3 .github/scripts/profile_header.py dist
 
       - name: Publish the SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
